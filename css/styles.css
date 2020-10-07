@@ -1,0 +1,214 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
+.bg-shit{
+  width: 600px;
+  height: 1200px;
+  border-radius: 600px;
+  position: absolute;
+  bottom: 100px;
+  left: -60px;
+  background: rgb(144,57,255);
+  background: linear-gradient(0deg, rgba(144,57,255,1) 0%, rgba(224,68,255,1) 100%);
+
+}
+.bg-shit-2{
+  width: 600px;
+  height: 1200px;
+  border-radius: 600px;
+  position: absolute;
+  z-index: -100;
+  opacity: 0.2;
+  top:100px;
+  right: -280px;
+  background: rgb(144,57,255);
+  background: linear-gradient(0deg, rgba(144,57,255,1) 0%, rgba(224,68,255,1) 100%);
+
+
+}
+.continor{
+  display: flex;
+}
+.main-text-right{
+  margin: 15% 6% 0 6%;
+
+}
+
+.bold{
+  font-family: 'PT Sans', sans-serif;
+}
+.phone{
+  margin: 10% 10% 0 25%;
+  width: 300px;
+	height: 630px;
+  background-color: #f5f3f8;
+  border: 12px solid;
+  border-color: white;
+  border-radius: 36px;
+  position: relative;
+  box-shadow: 0px 2px 60px 0.2px;
+
+}
+
+.noch{
+  width: 175px;
+	height: 25px;
+  background-color: white;
+  border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+  z-index: auto;
+  position: absolute;
+  left: 20%;
+}
+
+.nav-phone{
+  width: 300px;
+  height: 85px;
+  background: rgb(144,57,255);
+  background: linear-gradient(90deg, rgba(144,57,255,1) 0%, rgba(224,68,255,1) 100%);
+  border-radius: 20px 20px 10px 10px ;
+}
+.nav-phone{
+
+}
+
+.profile{
+  display: flex;
+  flex-direction: row;
+}
+.profile-pic{
+  width: auto;
+  height: 5%;
+  border-radius : 100%;
+  border-color: white;
+  border: 3px solid;
+  position: absolute;
+  top:35px;
+  left: 25px;
+}
+
+.main-profile{
+  padding: 0 0 0 25%;
+}
+
+.name-profile{
+  margin: 0;
+  padding : 38% 0 0 0 ;
+  color: white;
+
+}
+
+.active{
+  margin: 0;
+  padding: 0;
+  color:white;
+}
+
+.loction-icon-1{
+  padding: 16% 0 0 3%;
+  color: white;
+}
+.loction-icon-2{
+  padding: 16% 0 0 27%;
+  color: white;
+}
+
+/* main borad  */
+
+.massage-box-recive{
+  border-radius: 10px 10px 10px 5px ;
+  background-color: #ebe3f2;
+  margin: 8% 35% 0 2%;
+}
+
+.margin-box{
+  margin: 3% 35% 0 2%;
+
+}
+
+.recive-massage{
+  padding: 3% 20% 3% 6%;
+  color: #a77fc5;
+  margin: 0;
+
+}
+
+.continor-pictures{
+  display: flex;
+  margin: 5% 3% 3% 35%;
+  flex-direction: row;
+}
+
+.dog-img{
+  border-radius:20%;
+  margin: 0 0 0 5%;
+  width: 15%;
+  height: auto;
+  flex: 1;
+}
+
+.massage-box-sanded{
+  border-radius: 10px 10px 5px 10px ;
+  background-color: white;
+  margin: 6% 2% 0 35%;
+}
+
+.margin-box-2{
+  margin: 3% 2% 0 60%;
+}
+
+.sanded-massage{
+  padding: 3% 20% 3% 6%;
+  color: #78727e;
+  margin: 0;
+
+}
+
+.margin-box-3{
+  margin: 6% 35% 0 2%;
+
+}
+
+.walk-box{
+  border-radius: 10px 10px 10px 5px ;
+  background: rgb(144,57,255);
+  background: linear-gradient(90deg, rgba(144,57,255,1) 0%, rgba(224,68,255,1) 100%);
+  margin: 4% 35% 0 2%;
+
+}
+
+.walk-massage{
+  color: white;
+  margin: 0;
+  padding: 5% 0 5% 5% ;
+
+}
+
+.dollar{
+  padding: 2% 0 2% 25%;
+  font-size: 1.2rem;
+}
+
+.text-box{
+  background-color: white;
+  margin:16% 3% 3% 3%;
+  border-radius: 25px 25px 25px 25px ;
+}
+.text-inner{
+  font-size: 1rem;
+  color: #cbcdcc;
+  padding: 5% 3% 3% 5%;
+
+}
+.btn-side{
+  color: #3d274d;
+  padding: 0 0 0 40%;
+
+}
+
+@media screen and (max-width: 992px) {
+  .continor{
+    flex-direction: column;
+  }
+
+}
